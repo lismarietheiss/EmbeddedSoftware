@@ -9,7 +9,6 @@ void setup() {
   pinMode(photoSensor,INPUT);
   pinMode( LED_Pin, OUTPUT );
   Serial.begin(9600);
-
 }
 
 void loop() {
@@ -19,5 +18,4 @@ void loop() {
   int lightValue = constrain(LEDvalue, 0,255);//the contain output values within 0-255 range
   analogWrite(LED_Pin, lightValue);  
   delay (500);
-
 }
