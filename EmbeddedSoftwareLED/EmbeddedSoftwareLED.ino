@@ -10,7 +10,7 @@ intervalTimer readInputTimer(50U);
 intervalTimer displayValuesTimer(1000U);
 
 void setup() {
-  pinMode(photoSensor,INPUT);
+  pinMode(photoSensor,INPUT);S
   pinMode( LED_Pin, OUTPUT );
   Serial.begin(9600);
 }
